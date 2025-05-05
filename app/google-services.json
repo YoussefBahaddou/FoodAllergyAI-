@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "311504675639",
+    "firebase_url": "https://foodallergyai-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "foodallergyai",
+    "storage_bucket": "foodallergyai.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:311504675639:android:db13d3075298186cc3f0b2",
+        "android_client_info": {
+          "package_name": "com.emsi.foodallergyai"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCiJ7_Q5XI6BL60pyUykhyWsCNXY-T556w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

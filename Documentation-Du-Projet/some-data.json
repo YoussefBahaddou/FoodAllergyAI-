@@ -1,0 +1,148 @@
+{
+  "users": {
+    "user1": {
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "allergies": ["peanut", "shellfish"]
+    },
+    "user2": {
+      "name": "Jane Smith",
+      "email": "jane.smith@example.com",
+      "allergies": ["milk", "gluten", "egg"]
+    }
+  },
+  "allergens": {
+    "peanut": {
+      "name": "Peanut",
+      "description": "A common legume allergen that can cause severe reactions",
+      "severityLevels": ["mild", "moderate", "severe"],
+      "alternativeNames": ["groundnut", "arachis hypogaea", "monkey nut"]
+    },
+    "milk": {
+      "name": "Milk",
+      "description": "Dairy allergen from cows that affects many people with lactose intolerance",
+      "severityLevels": ["mild", "moderate", "severe"],
+      "alternativeNames": ["dairy", "lactose", "whey", "casein", "cow's milk"]
+    },
+    "gluten": {
+      "name": "Gluten",
+      "description": "Protein found in certain grains that affects people with celiac disease",
+      "severityLevels": ["mild", "moderate", "severe"],
+      "alternativeNames": ["wheat", "rye", "barley", "malt", "triticale"]
+    },
+    "egg": {
+      "name": "Egg",
+      "description": "Common allergen found in many foods",
+      "severityLevels": ["mild", "moderate", "severe"],
+      "alternativeNames": ["albumin", "ovomucoid", "ovalbumin", "lysozyme"]
+    },
+    "shellfish": {
+      "name": "Shellfish",
+      "description": "Marine allergen that can cause severe reactions",
+      "severityLevels": ["mild", "moderate", "severe"],
+      "alternativeNames": ["crustacean", "shrimp", "crab", "lobster", "prawn"]
+    },
+    "soy": {
+      "name": "Soy",
+      "description": "Legume allergen found in many processed foods",
+      "severityLevels": ["mild", "moderate", "severe"],
+      "alternativeNames": ["soya", "soybean", "edamame", "tofu", "tempeh"]
+    },
+    "treenut": {
+      "name": "Tree Nuts",
+      "description": "Group of nuts that commonly cause allergic reactions",
+      "severityLevels": ["mild", "moderate", "severe"],
+      "alternativeNames": ["almond", "walnut", "cashew", "hazelnut", "pecan", "pistachio"]
+    },
+    "fish": {
+      "name": "Fish",
+      "description": "Common allergen that can cause severe reactions",
+      "severityLevels": ["mild", "moderate", "severe"],
+      "alternativeNames": ["cod", "salmon", "tuna", "tilapia", "bass", "anchovy"]
+    }
+  },
+  "products": {
+    "5901234123457": {
+      "name": "Chocolate Chip Cookies",
+      "brand": "Sweet Delights",
+      "ingredients": ["wheat flour", "sugar", "butter", "chocolate chips", "eggs", "vanilla extract"],
+      "allergens": ["gluten", "milk", "egg"]
+    },
+    "8712345678901": {
+      "name": "Almond Milk",
+      "brand": "Nature's Best",
+      "ingredients": ["water", "almonds", "sugar", "calcium carbonate", "sea salt"],
+      "allergens": ["treenut"]
+    },
+    "6412345678901": {
+      "name": "Peanut Butter",
+      "brand": "Nutty Goodness",
+      "ingredients": ["roasted peanuts", "salt", "sugar"],
+      "allergens": ["peanut"]
+    },
+    "7412345678901": {
+      "name": "Soy Sauce",
+      "brand": "Asian Flavors",
+      "ingredients": ["water", "soybeans", "wheat", "salt", "alcohol"],
+      "allergens": ["soy", "gluten"]
+    },
+    "9012345678901": {
+      "name": "Tuna Salad",
+      "brand": "Ocean Fresh",
+      "ingredients": ["tuna", "mayonnaise", "celery", "onion", "salt", "pepper"],
+      "allergens": ["fish", "egg"]
+    },
+    "1234567890123": {
+      "name": "Shrimp Pasta",
+      "brand": "Seafood Delights",
+      "ingredients": ["pasta", "shrimp", "cream", "garlic", "butter", "parsley"],
+      "allergens": ["shellfish", "gluten", "milk"]
+    },
+    "2345678901234": {
+      "name": "Gluten-Free Bread",
+      "brand": "Healthy Options",
+      "ingredients": ["rice flour", "tapioca starch", "potato starch", "eggs", "yeast", "salt"],
+      "allergens": ["egg"]
+    },
+    "3456789012345": {
+      "name": "Dairy-Free Yogurt",
+      "brand": "Plant Based",
+      "ingredients": ["coconut milk", "tapioca starch", "probiotics", "fruit puree"],
+      "allergens": []
+    }
+  },
+  "scan_history": {
+    "scan1": {
+      "userId": "user1",
+      "timestamp": 1715000000000,
+      "productName": "Chocolate Chip Cookies",
+      "ingredients": ["wheat flour", "sugar", "butter", "chocolate chips", "eggs", "vanilla extract"],
+      "detectedAllergens": ["gluten", "milk", "egg"],
+      "severity": "moderate"
+    },
+    "scan2": {
+      "userId": "user1",
+      "timestamp": 1715100000000,
+      "productName": "Peanut Butter",
+      "ingredients": ["roasted peanuts", "salt", "sugar"],
+      "detectedAllergens": ["peanut"],
+      "severity": "severe"
+    },
+    "scan3": {
+      "userId": "user2",
+      "timestamp": 1715200000000,
+      "productName": "Almond Milk",
+      "ingredients": ["water", "almonds", "sugar", "calcium carbonate", "sea salt"],
+      "detectedAllergens": ["treenut"],
+      "severity": "mild"
+    },
+    "scan4": {
+      "userId": "user2",
+      "timestamp": 1715300000000,
+      "productName": "Gluten-Free Bread",
+      "ingredients": ["rice flour", "tapioca starch", "potato starch", "eggs", "yeast", "salt"],
+      "detectedAllergens": ["egg"],
+      "severity": "moderate"
+    }
+  }
+}
